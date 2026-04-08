@@ -1,0 +1,11 @@
+{
+  "name": "Anto",
+  "surname": "Pic",
+  "age": 45,
+  "languaje": [
+    "Python",
+    "Javascript",
+    "PHP"
+  ],
+  "website": "erpica.es"
+}

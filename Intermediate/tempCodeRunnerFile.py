@@ -1,9 +1,7 @@
-def reverse(text):
-    text_len = len(text)
-    reversed_text = ""
-    for index in range(0, text_len):
-        reversed_text += text[text_len - index - 1]
-    return reversed_text
+def greet_fabric ():
+    def greet(name):
+        return f"hola, {name}"
+    return greet
 
-
-print(reverse("Hola mundo"))
+my_greet = greet_fabric()
+my_greet("Anto")

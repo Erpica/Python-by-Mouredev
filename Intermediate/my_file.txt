@@ -1,0 +1,5 @@
+Mi nombre es Anto
+Mi apellido es Pic
+Tengo 45 años
+Y mi lenguaje favorito es Python
+Aunque trabajo más con Javascript
