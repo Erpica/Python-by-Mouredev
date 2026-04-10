@@ -1,11 +1,16 @@
 ### File Handling ###
 
+## IMPORTANTE ##
+# w+ -> lo primero que hace es borrar el archivo y luego lo abre en modo escritura. Para añadir a+
+# txt_file.seek(0) -> me llevo el puntero al inicio del archivo
+
 # .txt file
 import os
 
 # txt_file = open("Intermediate/my_file.txt") # Abre el archivo en modo lectura (read mode)
 txt_file = open("Intermediate/my_file.txt", "w+")
 txt_file.write("Mi nombre es Anto\nMi apellido es Pic\nTengo 45 años\nY mi lenguaje favorito es Python")
+
 # print(txt_file.read()) # => lo lee entero y deja el cursor al final
 # print(txt_file.read(10)) # => Lee los primeros 10 caracteres del archivo (o donde esté el "cursor")
 # print(txt_file.readline()+txt_file.readline())

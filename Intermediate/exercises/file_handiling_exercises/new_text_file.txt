@@ -1,0 +1,3 @@
+En el curso de Python
+Vamos a hablar de lo mucho que nos gusta 
+Python

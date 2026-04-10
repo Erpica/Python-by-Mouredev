@@ -1,4 +1,6 @@
-text_file = open ("Intermediate/exercises/file_handiling_exercises/text_file.txt", "w+")
-my_phrase_two = "Lí­nea añadida"
-text_file.write(my_phrase_two)
-print(text_file.readlines())
+
+# 10. Lee un archivo lí­nea por lí­nea y muestra solo las que contienen la palabra "Python".
+new_text_file = open("Intermediate/exercises/file_handiling_exercises/new_text_file.txt", "r+")
+for line in new_text_file.readlines():
+    if "Python" in line:
+        print(line, end="")
